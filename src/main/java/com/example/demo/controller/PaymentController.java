@@ -51,7 +51,7 @@ public class PaymentController {
 		int  amount  = 5000;
 		Order order=null;
 		try {
-			RazorpayClient razorpay=new RazorpayClient("rzp_test_6WlQvVr8CNbiEn", "UlnLCUb8lRxvBKRyIYRYWrEO");
+			RazorpayClient razorpay=new RazorpayClient("rzp_test_6WlQvVr8CNbiEn", "KF0CQxuU2aukK7JXQDBhP3q9");
 
 			JSONObject orderRequest = new JSONObject();
 			orderRequest.put("amount", amount*100); // amount in the smallest currency unit
